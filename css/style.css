@@ -1,35 +1,3 @@
-/*================================================
-[  Table of contents  ]
-================================================
-::General
-::Back to Top
-::Loader
-::Buttons
-::Div Shadow
-::Page Section Margin Padding 
-::Text Weight 
-::Text color
-::Font size
-::Background color
-::BG Effects
-::Background Gradient
-::Section Title
-::Header
-::Banner
-::How it Works
-::Who is sofbox?
-::Software features
-::Great screenshots
-::Special features
-::Sofbox specialities
-::counter
-::Our clients
-::Subscribe Our Newsletter
-::Get in touch
-::Footer Info
-======================================
-[ End table content ]
-======================================*/
 
 /*---------------------------------------------------------------------
                                General
@@ -300,8 +268,7 @@ Margin Top
 .iq-mt-25 { margin-top: 25px !important; }
 .iq-mt-30 { margin-top: 30px !important; }
 .iq-mt-40 { margin-top: 40px !important; }
-.iq-mt-50 { margin-top: 50px !important;
-            margin-bottom: 50px; }
+.iq-mt-50 { margin-top: 50px !important; }
 .iq-mt-60 { margin-top: 60px !important; }
 .iq-mt-70 { margin-top: 70px !important; }
 .iq-mt-80 { margin-top: 80px !important; }
@@ -376,8 +343,7 @@ Margin Right
                             Text Color 
 -----------------------------------------------------------------------*/
 .iq-font-blue { color: #4ac4f3; }
-.iq-font-white { color: #ffffff; 
-                 font-size: 20px;}
+.iq-font-white { color: #ffffff; }
 .iq-font-black { color: #333333; }
 .iq-font-light { color: #666666; }
 
@@ -579,23 +545,23 @@ header .menu-sticky .button { margin-top: 0px; }
 .iq-amazing-tab .nav.nav-tabs li.active1 a:before, .iq-amazing-tab .nav.nav-tabs li.active1 a:hover:before, .iq-amazing-tab .nav.nav-tabs li.active1 a:focus:before, .iq-amazing-tab .nav.nav-tabs li a:hover { opacity: 1; left: 0%; }
 
 
+ 
 /*---------------------------------------------------------------------
-                          Counter
+                           Customers
 -----------------------------------------------------------------------*/
-.counter { position: relative; min-height: 60px; }
-.counter i { font-size: 60px; line-height: 65px; display: inline-block; float: left; margin-right: 20px; }
-.counter span { display: inline-block; width: 70%; font-size: 40px; margin: 0; margin-bottom: 30px; line-height: 40px; float: left; }
-.counter label { font-size: 18px; display: block; position: relative; margin: 0 0 15px 0; margin-bottom: 0; text-transform: uppercase; float: left; }
-.counter-info { border-top: 1px solid rgba(255, 255, 255, 0.2); display: inline-block; width: 100%; position: relative; }
-.counter-info-img { position: relative; display: inline-block; width: 100%; height: 100%; min-height: 200px; }
-.counter-info-img img { margin-top: -30px; margin-bottom: -135px; }
-.counter-info .iq-video { position: absolute; left: 68%; top: 60%; background: #fff; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); width: 80px; height: 80px; text-align: center; font-size: 38px; color: #4ac4f3; border-radius: 100%; line-height: 2.1; z-index: 9; }
-.counter-info .iq-video i { margin-left: 7px; }
-.counter-info .iq-waves { position: absolute; width: 384px; width: 24rem; height: 384px; height: 24rem; left: 68%; top: 60%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); z-index: 2; }
-.counter-info .iq-waves .waves { position: absolute; width: 384px; width: 24rem; height: 384px; height: 24rem; background: rgba(255, 255, 255, 0.2); opacity: 0; -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; border-radius: 320px; background-clip: padding-box; -webkit-animation: waves 3s ease-in-out infinite; animation: waves 3s ease-in-out infinite; }
-.counter-info .iq-waves .wave-1 { -webkit-animation-delay: 0s; animation-delay: 0s; }
-.counter-info .iq-waves .wave-2 { -webkit-animation-delay: 1s; animation-delay: 1s; }
-.counter-info .iq-waves .wave-3 { -webkit-animation-delay: 2s; animation-delay: 2s; }
+.iq-loved-customers .owl-carousel .owl-item .item { padding: 10px 10px 20px; }
+.iq-client { position: relative; margin-top: 40px; padding: 30px; text-align: center; border: 1px solid #f2f2f2; -webkit-box-shadow: 0px 6px 16px 0px rgba(0, 0, 0, 0.06); -moz-box-shadow: 0px 6px 16px 0px rgba(0, 0, 0, 0.06); box-shadow: 0px 6px 16px 0px rgba(0, 0, 0, 0.06); }
+.iq-client:before { position: absolute; content: ""; bottom: -8px; left: 5%; width: 90%; background: #4ac4f3; height: 8px; display: inline-block; z-index: -1; }
+.iq-client .client-img { width: 80px; height: 80px; display: inline-block; border-radius: 90px; position: absolute; left: 50%; top: 0; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); }
+.client-info { margin-top: 30px; }
+.client-name:before { content: "\f10d"; font-family: FontAwesome; position: absolute; top: 15px; left: 15px; font-size: 44px; color: #f0f0f0; line-height: normal; }
+.client-name:after { content: "\f10e"; font-family: FontAwesome; position: absolute; bottom: 15px; right: 15px; font-size: 44px; color: #f0f0f0; line-height: normal; }
+.client-info p { line-height: 28px; }
+.owl-carousel .owl-nav { display: block; position: absolute; text-indent: inherit; top: 50%; transform: translateY(-50%); -webkit-transform: translateY(-50%); -o-transform: translateY(-50%); -ms-transform: translateY(-50%); -moz-transform: translateY(-50%); left: 0; width: 100%; cursor: pointer; z-index: 999; }
+.owl-carousel .owl-nav .owl-prev { display: block; position: absolute; text-align: center; text-indent: inherit; left: -8%; width: auto; cursor: pointer; -webkit-transition: opacity 0.3s ease 0s, left 0.3s ease 0s; -moz-transition: opacity 0.3s ease 0s, left 0.3s ease 0s; -ms-transition: opacity 0.3s ease 0s, left 0.3s ease 0s; -o-transition: opacity 0.3s ease 0s, left 0.3s ease 0s; transition: opacity 0.3s ease 0s, left 0.3s ease 0s; }
+.owl-carousel .owl-nav .owl-next { display: block; position: absolute; text-align: center; text-indent: inherit; right: -8%; width: auto; cursor: pointer; -webkit-transition: opacity 0.3s ease 0s, right 0.3s ease 0s; -moz-transition: opacity 0.3s ease 0s, right 0.3s ease 0s; -ms-transition: opacity 0.3s ease 0s, right 0.3s ease 0s; -o-transition: opacity 0.3s ease 0s, right 0.3s ease 0s; transition: opacity 0.3s ease 0s, right 0.3s ease 0s; }
+.owl-carousel .owl-nav i { font-size: 24px; border-radius: 50%; width: 44px; height: 44px; line-height: 42px; padding-left: 0px; display: inline-block; color: #fff; background: #e7e7e7; font-weight: normal; text-align: center; -webkit-transition: all 0.5s ease-out 0s; -moz-transition: all 0.5s ease-out 0s; -ms-transition: all 0.5s ease-out 0s; -o-transition: all 0.5s ease-out 0s; transition: all 0.5s ease-out 0s; }
+.owl-carousel .owl-nav i:hover { background: #4ac4f3; color: #fff; }
 
 /*---------------------------------------------------------------------
                         Affordable Price
@@ -610,6 +576,13 @@ header .menu-sticky .button { margin-top: 0px; }
 .iq-pricing ul { margin: 20px 0; }
 .iq-pricing ul li { line-height: 50px; }
 .iq-pricing .price-footer { padding: 30px 0; z-index: 9; position: relative; }
+
+
+/*---------------------------------------------------------------------
+                           Our clients
+-----------------------------------------------------------------------*/
+.iq-our-clients { border-top: 1px solid #ededed; }
+.iq-our-clients .owl-carousel .owl-nav { margin-top: -20px; }
 
 /*---------------------------------------------------------------------
                             Subscribe Our Newsletter
@@ -672,31 +645,4 @@ header .menu-sticky .button { margin-top: 0px; }
 .pagination-lg>li:last-child>a, .pagination-lg>li:last-child>span { border-bottom-right-radius: 90px; border-top-right-radius: 90px; }
 .pagination-lg>li:first-child>a, .pagination-lg>li:first-child>span { border-bottom-left-radius: 90px; border-top-left-radius: 90px; }
 
-/*---------------------------------------------------------------------
-                             404 Error
------------------------------------------------------------------------*/
-.iq-error .big-text { font-size: 180px; font-family: 'Open Sans', sans-serif; line-height: 180px; color: #333333; }
-.iq-error h6 { background-color: #4ac4f3; color: #ffffff; display: inline-block; }
-.iq-error .form-inline.iq-subscribe { text-align: center; }
-.iq-error .iq-subscribe .form-group { width: 40%; }
-.iq-error .iq-subscribe .form-control { border-radius: 90px; height: 50px; width: 100%; display: inline-block; padding-left: 25px; box-shadow: none; border: none; background: #f4f4f4; }
 
-/*---------------------------------------------------------------------
-                            Coming Soon
------------------------------------------------------------------------*/
-.iq-coming .big-text { font-size: 80px; font-family: 'Open Sans', sans-serif; text-transform: uppercase; color: #333333; }
-.iq-coming img { width: 140px; }
-.iq-coming .form-inline.iq-subscribe { text-align: center; }
-.iq-coming .iq-subscribe .form-group { width: 40%; }
-.iq-coming .iq-subscribe .form-control { border-radius: 90px; height: 50px; width: 100%; display: inline-block; padding-left: 25px; box-shadow: none; border: none; background: #f4f4f4; }
-.iq-coming .countdown-timer { border-radius: 5px; margin-bottom: 20px; max-width: 300px; margin: 50px auto; }
-.iq-coming .countdown-timer h5 { font-size: 14px; letter-spacing: 0.5px; text-align: center; padding-top: 10px; text-shadow: none; }
-.iq-coming .countdown-timer .timer { padding: 10px; text-align: center; padding-top: 15px; }
-.iq-coming .countdown-timer .timer .timer-wrapper { display: inline-block; width: 200px; height: 50px; }
-.iq-coming .countdown-timer .timer .timer-wrapper .time { font-size: 80px; font-weight: bold; color: #333; margin: 0 50px; float: left; }
-.iq-coming .countdown-timer .timer .timer-wrapper .text { font-size: 20px; }
-#countdown { list-style: none; margin: 50px 0; padding: 0; display: block; text-align: center; display: inline-block; }
-#countdown li { display: inline-block; }
-#countdown li span { font-size: 50px; font-weight: 800; line-height: 80px; margin: 0 30px; }
-#countdown li.seperator { font-size: 50px; line-height: 40px; vertical-align: top; margin-top: 15px; }
-#countdown li p { color: #a7abb1; font-size: 20px; }
